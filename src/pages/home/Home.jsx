@@ -7,11 +7,9 @@ import SmallCards from "../../components/smallCards/SmallCards";
 const Home = () => {
 return(
     <div className="home">
-        <Navbar/>
         <Banner/>
         <BigCards/>
         <SmallCards/>
-        <Footer/>
     </div>
 );
 }
