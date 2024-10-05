@@ -24,7 +24,6 @@ const Big_Cards = () => {
 return (
  <div className="cards-wrapper">
     { bigCardsData.map((card, index) => (
-        console.log(card),
     <div className="big_cards" key = {index}>
         <img src= {card.image} alt= {card.title} />
         <div className="card_desc">
