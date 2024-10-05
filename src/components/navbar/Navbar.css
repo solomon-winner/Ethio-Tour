@@ -1,9 +1,38 @@
 .navbar {
     background-color: #ffffff;
     padding: 0.5rem 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
-.navbar .logo{
+.navbar__left {
+    width: 50%;
+    display: flex;
+    justify-content: start;
+}
+.navbar__left img {
     color: #fff;
-    font-size: 1.5rem;
-    font-weight: 400;
+    width: 25%;
+    height: 25%;
+}
+
+.navbar__right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+}
+
+.navbar__right ul {
+    color: #000;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    list-style: none;
+    display: flex;
+}
+.navbar__right ul li a{
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #185601;
 }
