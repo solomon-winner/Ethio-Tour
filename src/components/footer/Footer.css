@@ -2,11 +2,74 @@
     background-color: #19410A;
     color: white;
     text-align: center;
+    display: flex;
+    gap: 2rem;
     padding: 10px;
-    position: fixed;
+    margin-top: 5rem;
     left: 0;
     bottom: 0;
     width: 100%;
-    height: 10rem;
-    z-index: 100;
+    height: 15rem;
+}
+.left_footer {
+    display: flex;
+    width: 40%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.left_footer .button {
+    background-color: #ffffff;
+    padding: 0.5rem 1rem;
+    color: #185601;
+    font-size: 1rem;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 45rem; 
+    border: 1px solid #185601;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.left_footer .button:hover {
+    background-color: #185601;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+.right_footer{
+    display: flex;
+    gap: 3rem;
+    width: 40%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.mini_footer {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    text-align: start;
+    width: 50%;
+    height: 100%;
+}
+.mini_footer .footer_title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+.mini_footer .footer_list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: start;
+    gap: 1rem;
+}
+.mini_footer .list{
+    
+    font-size: 1rem;
+    font-weight: lighter;
+    color: #ffffff;
+    cursor: pointer;
 }
