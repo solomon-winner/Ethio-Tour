@@ -5,7 +5,7 @@ const Banner = () => {
         <div className="banner">
             <div className="banner__content">
                 <p className="title">Explore Ethiopia</p>
-                <p>Discover The Land of Wonders!</p>
+                <p className="sub_title">Discover The Land of Wonders!</p>
                 <button>Learn More</button>
                 </div>
         </div>

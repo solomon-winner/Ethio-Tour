@@ -11,6 +11,7 @@
     font-weight: 700;
     letter-spacing: 0.2rem;
     position: relative;
+    border: 1px solid #185601;
 }
 /* .banner::before {
     content: '';
@@ -25,23 +26,29 @@
 }
 .banner__content .title {
     font-size: 3rem;
-    font-family: 'Lobster';
+    font-family: 'Inter';
+    font-weight: bold;
     margin-bottom: 1rem;
     color: #185601;
 }
-.banner__content p {
-    font-size: 1.5rem;
+.banner__content .sub_title {
+    font-size: 1rem;
     margin-bottom: 1rem;
+    font-weight:lighter;
     color: #185601;
 }
 .banner__content button {
-    background-color: #ffffff;
-    padding: 0.5rem ;
-
-    color: #185601;
-    font-size: 1.5rem;
-    text-decoration: none;
-    border-radius: 0.5rem;
-    transition: background-color 0.3s;
-    border: 1px solid #185601;
-}
+        background-color: #ffffff;
+        padding: 0.5rem 1rem;
+        color: #185601;
+        font-size: 1rem;
+        font-weight: 700;
+        text-decoration: none;
+        border-radius: 45rem; 
+        border: 1px solid #185601;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+.banner__content button:hover {
+        background-color: #185601;
+        color: #ffffff;
+    }
