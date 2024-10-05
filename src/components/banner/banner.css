@@ -1,0 +1,47 @@
+.banner {
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    position: relative;
+}
+/* .banner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+} */
+.banner__content {
+    z-index: 1;
+}
+.banner__content .title {
+    font-size: 3rem;
+    font-family: 'Lobster';
+    margin-bottom: 1rem;
+    color: #185601;
+}
+.banner__content p {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #185601;
+}
+.banner__content button {
+    background-color: #ffffff;
+    padding: 0.5rem ;
+
+    color: #185601;
+    font-size: 1.5rem;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s;
+    border: 1px solid #185601;
+}
