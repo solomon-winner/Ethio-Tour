@@ -1,13 +1,37 @@
 .cards-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
-    border: 1px solid #185601;
 }
 .big_cards {
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: start;
     margin: 0 auto;
     width: 80%;
+
+}
+.big_cards img {
+    width: 30rem;
+}
+.big_cards .card_desc {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    text-align: start;
+    border: 1px solid #185601;
+}
+.card_title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #185601;
+}
+.card_text {
+    font-size: 1rem;
+    font-weight: lighter;
+    color: #185601;
 }
