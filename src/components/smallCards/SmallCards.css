@@ -6,6 +6,7 @@
     margin: 0 auto;
     width: 80%;
 }
+
 .small_cards {
     width: 23rem; 
     height: 30rem; 
@@ -16,12 +17,12 @@
     display: flex;
     align-items: flex-end; 
 }
+
 .Smallcard_desc {
-    background:linear-gradient(
+    background: linear-gradient(
         to bottom,
         rgba(165, 152, 152, 0.6) 0%,
         rgba(0, 0, 0, 1) 53%
-
     );
     padding: 1rem;
     width: 100%;
@@ -31,8 +32,55 @@
     align-items: flex-end;
     justify-content: center;    
 }
+
 .Smallcard_desc .Smallcard_title {
     font-size: 1.4rem;
     font-weight: bold;
     color: #ffffff;
+}
+
+/* Media Queries for Mobile Responsiveness */
+@media (max-width: 1024px) {
+    .Smallcards-wrapper {
+        width: 90%;
+    }
+
+    .small_cards {
+        width: 20rem;
+        height: 25rem;
+    }
+
+    .Smallcard_desc .Smallcard_title {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .Smallcards-wrapper {
+        width: 90%;
+    }
+
+    .small_cards {
+        width: 18rem;
+        height: 22rem;
+    }
+
+    .Smallcard_desc .Smallcard_title {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .Smallcards-wrapper {
+        flex-direction: column;
+        width: 90%;
+    }
+    .small_cards {
+        width: 15rem;
+        height: 20rem;
+    }
+
+    .Smallcard_desc .Smallcard_title {
+        font-size: 0.9rem;
+    }
 }
