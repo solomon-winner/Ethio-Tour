@@ -1,0 +1,13 @@
+.cards-wrapper {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border: 1px solid #185601;
+}
+.big_cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 80%;
+}
