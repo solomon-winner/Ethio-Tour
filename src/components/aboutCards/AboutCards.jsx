@@ -14,7 +14,7 @@ const AboutCards = () => {
 
                 <Link to = "/" className="button">Back to Home</Link>
                 </div>   
-                <img className = "image" src= {GirlSefed} alt="simien mountain image" />
+                <img className = "image" src= {GirlSefed} alt="the girl" />
                        
             </div>
  </div>

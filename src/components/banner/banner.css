@@ -44,4 +44,34 @@
 .banner__content .button:hover {
         background-color: #185601;
         color: #ffffff;
+}
+
+@media (max-width: 768px) {
+    .banner__content .title {
+        font-size: 2rem; /* Smaller font size for mobile */
     }
+
+    .banner__content .sub_title {
+        font-size: 0.875rem; /* Smaller font size for mobile */
+    }
+
+    .banner__content button {
+        padding: 0.5rem 0.75rem; /* Adjust padding for mobile */
+        font-size: 0.875rem; /* Smaller font size for mobile */
+    }
+}
+
+@media (max-width: 480px) {
+    .banner__content .title {
+        font-size: 1.5rem; /* Even smaller font size for very small screens */
+    }
+
+    .banner__content .sub_title {
+        font-size: 0.75rem; /* Even smaller font size for very small screens */
+    }
+
+    .banner__content button {
+        padding: 0.5rem 0.5rem; /* Adjust padding for very small screens */
+        font-size: 0.75rem; /* Even smaller font size for very small screens */
+    }
+}
