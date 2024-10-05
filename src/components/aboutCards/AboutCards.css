@@ -6,6 +6,7 @@
     margin: 0 auto;
     width: 80%;
 }
+
 .about-cards-wrapper .aboutCard {
     width: 100%;
     display: flex;
@@ -15,6 +16,7 @@
     display: flex;
     align-items: center;
 }
+
 .about-cards-wrapper .aboutCard .image {
     width: 45%;
     height: 100%;
@@ -22,8 +24,8 @@
     background-repeat: no-repeat;
     display: flex;
     align-items: flex-end;
-
 }
+
 .about-cards-wrapper .aboutCard .aboutCard_desc {
     padding: 1rem;
     width: 40%;
@@ -35,11 +37,13 @@
     align-items: center;
     justify-content: center;
 }
+
 .aboutCard_desc .aboutCard_title {
     font-size: 2rem;
     font-weight: lighter;
     color: #185601;
 }
+
 .aboutCard_desc .aboutCard_text {
     display: flex;
     flex-wrap: wrap;
@@ -47,6 +51,7 @@
     font-weight: lighter;
     color: #185601;
 }
+
 .aboutCard_desc .button {
     background-color: #185601;
     padding: 0.5rem 1rem;
@@ -57,8 +62,87 @@
     border-radius: 45rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
 .aboutCard_desc .button:hover {
     background-color: #ffffff;
     color: #185601;
     border: 1px solid #185601;
+}
+
+/* Media Queries for Mobile Responsiveness */
+@media (max-width: 1024px) {
+    .about-cards-wrapper {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .about-cards-wrapper .aboutCard {
+        align-items: center;
+    }
+
+    .about-cards-wrapper .aboutCard .image {
+        width: 100%;
+        max-width: 25rem;
+    }
+
+    .about-cards-wrapper .aboutCard .aboutCard_desc {
+        width: 100%;
+        max-width: 25rem;
+    }
+
+    .aboutCard_desc .aboutCard_title {
+        font-size: 1.8rem;
+    }
+
+    .aboutCard_desc .aboutCard_text {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-cards-wrapper {
+        width: 100%;
+    }
+    .about-cards-wrapper .aboutCard {
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-cards-wrapper .aboutCard .image {
+        max-width: 20rem;
+    }
+
+    .about-cards-wrapper .aboutCard .aboutCard_desc {
+        max-width: 20rem;
+    }
+
+    .aboutCard_desc .aboutCard_title {
+        font-size: 1.5rem;
+    }
+
+    .aboutCard_desc .aboutCard_text {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-cards-wrapper .aboutCard .image {
+        max-width: 15rem;
+    }
+
+    .about-cards-wrapper .aboutCard .aboutCard_desc {
+        max-width: 15rem;
+    }
+
+    .aboutCard_desc .aboutCard_title {
+        font-size: 1.2rem;
+    }
+
+    .aboutCard_desc .aboutCard_text {
+        font-size: 0.7rem;
+    }
+
+    .aboutCard_desc .button {
+        font-size: 0.8rem;
+        padding: 0.3rem 0.6rem;
+    }
 }
