@@ -1,7 +1,10 @@
+import "./About.css";
+import AboutCards from "../../components/aboutCards/AboutCards.jsx";
+
 const About = () => {
     return (
-        <div className="">
-            <h1>About</h1>
+        <div className="about">
+            <AboutCards/>
         </div>
     )
 }

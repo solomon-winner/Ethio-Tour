@@ -1,0 +1,64 @@
+.about-cards-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+}
+.about-cards-wrapper .aboutCard {
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.about-cards-wrapper .aboutCard .image {
+    width: 45%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+
+}
+.about-cards-wrapper .aboutCard .aboutCard_desc {
+    padding: 1rem;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.aboutCard_desc .aboutCard_title {
+    font-size: 2rem;
+    font-weight: lighter;
+    color: #185601;
+}
+.aboutCard_desc .aboutCard_text {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: medium;
+    font-weight: lighter;
+    color: #185601;
+}
+.aboutCard_desc .button {
+    background-color: #185601;
+    padding: 0.5rem 1rem;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 45rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.aboutCard_desc .button:hover {
+    background-color: #ffffff;
+    color: #185601;
+    border: 1px solid #185601;
+}

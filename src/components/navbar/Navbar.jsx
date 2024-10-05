@@ -1,5 +1,6 @@
 import "./Navbar.css";
 import Logo from "../../assets/images/logo.png";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
     return(
@@ -9,8 +10,8 @@ const Navbar = () => {
             </div>
             <div className="navbar__right">
                 <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/about">About</a></li>
+                    <li><NavLink to="/" className= {({isActive}) => isActive ? 'nav-link active-link' : 'nav-link'}>Home</NavLink></li>
+                    <li><NavLink to="/about" className= {({isActive}) => isActive ? 'nav-link active-link' : 'nav-link'}>About</NavLink></li>
                 </ul>
             </div>
         </div>
